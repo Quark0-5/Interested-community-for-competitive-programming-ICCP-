@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_N 100001
-
 void solve1() {
     int n;
     scanf("%d", &n); 
-    char s[MAX_N];
+    char s[n];
     scanf("%s", s);
     int data[26] = {0};
     for (int i = 0; i < n; i++) {
